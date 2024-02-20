@@ -37,7 +37,6 @@ container.addEventListener("mousedown", function (event) {
     event.preventDefault();
   }
 });
-//halooo
 
 container.addEventListener("mouseup", function () {
   isMouseDown = false;
