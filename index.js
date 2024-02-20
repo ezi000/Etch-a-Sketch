@@ -27,7 +27,7 @@ btn.addEventListener("click", function () {
     alert(e);
   }
 });
-//kolejna zmiana
+
 let isMouseDown = false;
 
 container.addEventListener("mousedown", function (event) {
