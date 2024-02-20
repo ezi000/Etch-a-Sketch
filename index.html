@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>etch-a-sketch</title>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="buttons">
+      <button id="btn">Set grid</button>
+      <button id="clear">Clear</button>
+    </div>
+    <div id="container" draggable="false"></div>
+  </body>
+</html>
+
+<style>
+  button {
+    margin: 10px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #container {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    width: 750px;
+    height: 750px;
+    flex-wrap: wrap;
+  }
+
+  .border {
+    border: 2px solid black;
+  }
+
+  .hover:hover {
+    background-color: black;
+  }
+
+  .color {
+    background-color: black;
+  }
+</style>
