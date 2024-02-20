@@ -29,7 +29,7 @@ btn.addEventListener("click", function () {
 });
 
 let isMouseDown = false;
-
+//siema eniu
 container.addEventListener("mousedown", function (event) {
   if (event.target.classList.contains("hover")) {
     isMouseDown = true;
